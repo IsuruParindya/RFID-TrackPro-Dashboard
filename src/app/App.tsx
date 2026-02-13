@@ -8,9 +8,11 @@ import { QuickActions } from './components/quick-actions';
 import { ActionModal } from './components/modals';
 import { AssetManagement } from './components/asset-management';
 import { EmployeeManagement } from './components/EmployeeManagement';
+import AlertsIncidents from './components/AlertsIncidents';
 
 import { Package, Truck, AlertCircle, RefreshCw } from 'lucide-react';
 import { motion } from 'motion/react';
+import { OrganizationManagement } from './components/OrganizationManagement';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -39,6 +41,12 @@ export default function App() {
     }
     if (activeTab === 'employees') {
       return <EmployeeManagement />;
+    }
+    if (activeTab === 'organizations') {
+      return <OrganizationManagement />;
+    }
+    if (activeTab === 'alerts') {
+      return <AlertsIncidents />;
     }
 
     return (

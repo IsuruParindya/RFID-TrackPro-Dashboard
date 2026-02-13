@@ -48,12 +48,6 @@ export const Sidebar = ({ activeTab, setActiveTab }: SidebarProps) => {
               >
                 <item.icon className={`w-5 h-5 ${isActive ? 'text-white' : 'text-gray-400 group-hover:text-[#248AFF]'}`} />
                 <span className="font-semibold text-sm">{item.label}</span>
-                {isActive && (
-                  <motion.div
-                    layoutId="sidebar-active-indicator"
-                    className="absolute right-2 w-1.5 h-1.5 bg-white rounded-full"
-                  />
-                )}
               </button>
             );
           })}
