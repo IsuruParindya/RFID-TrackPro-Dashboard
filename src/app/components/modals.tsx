@@ -78,7 +78,7 @@ export const ActionModal = ({ isOpen, onClose, title, type }: ModalProps) => {
               <button
                 className="flex-1 py-3.5 rounded-xl bg-[#248AFF] text-white font-bold text-sm shadow-lg shadow-blue-100 hover:bg-[#1c7ae6] transition-colors"
               >
-                Confirm
+                Confirms
               </button>
             </div>
           </div>
