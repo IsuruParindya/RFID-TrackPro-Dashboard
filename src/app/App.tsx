@@ -9,10 +9,10 @@ import { ActionModal } from './components/modals';
 import { AssetManagement } from './components/asset-management';
 import { EmployeeManagement } from './components/EmployeeManagement';
 import AlertsIncidents from './components/AlertsIncidents';
-
+import { OrganizationManagement } from './components/OrganizationManagement';
 import { Package, Truck, AlertCircle, RefreshCw } from 'lucide-react';
 import { motion } from 'motion/react';
-import { OrganizationManagement } from './components/OrganizationManagement';
+
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
