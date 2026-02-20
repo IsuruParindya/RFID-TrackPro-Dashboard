@@ -22,3 +22,5 @@ RFID Asset Tracking Dashboard is a modern asset monitoring and management interf
 - Tailwind CSS
 - Framer Motion
 - Lucide React Icons
+
+![Uploading Screenshot (444).png…]()
